@@ -5,7 +5,7 @@
 #' @param object a valid GeoMx S4 object
 #' @param groupvar the group variable name for slide
 #' @param iterations maximum iterations to be run, default=10
-#' @param tol tolerance to determine convergence, default = 1e-3
+#' @param tol tolerance to determine convergence, default=1e-3
 #' @param size_scale method to scale the sizefact, sum(sizefact)=1 when size_scale="sum", sizefact[1]=1 when size_scale="first"
 #' @param ... additional argument list that might be used
 #'
@@ -117,7 +117,7 @@ setMethod(
 #'
 #' @param object count matrix with features in rows and samples in columns
 #' @param iterations maximum iterations to be run, default=10
-#' @param tol tolerance to determine convergence, default = 1e-3
+#' @param tol tolerance to determine convergence, default=1e-3
 #' @param size_scale method to scale the sizefact, sum(sizefact)=1 when size_scale="sum", sizefact[1]=1 when size_scale="first"
 #'
 #' @return a list of following items
@@ -199,7 +199,7 @@ setMethod(
 #' @param object count matrix with features in rows and samples in columns
 #' @param id character vector same size as sample size representing slide names of each sample
 #' @param iterations maximum iterations to be run, default=10
-#' @param tol tolerance to determine convergence, default = 1e-3
+#' @param tol tolerance to determine convergence, default=1e-3
 #' @param size_scale method to scale the sizefact, sum(sizefact)=1 when size_scale="sum", sizefact[1]=1 when size_scale="first"
 #' @param ... additional argument list that might be used
 #'
@@ -489,7 +489,7 @@ setMethod(
         if (generate_ppplot) {
             y <- sort(lowtail_prob, na.last = TRUE)
             y_simu <- sort(lowtail_prob_simu, na.last = TRUE)
-            plot(y_simu, y, ylim = c(0, 1), xlab = "Empircal CDF from simulated data", ylab = "Empircal CDF", main = "Poisson model")
+            plot(y_simu, y, ylim = c(0, 1), xlab = "Empirical CDF from simulated data", ylab = "Empirical CDF", main = "Poisson model")
             graphics::abline(a = 0, b = 1)
         }
 
