@@ -1,6 +1,6 @@
 #' Generate aggregated counts of probes for the same target
 #'
-#' Generate Generate aggregated counts of probes for the same target, based on their score test results or correlation
+#' Generate aggregated counts of probes for the same target, based on their score test results or correlation
 #'
 #' @param object a valid GeoMx S4 object
 #' @param split indicator variable on whether it is for multiple slides (Yes, TRUE; No, FALSE)
@@ -155,7 +155,7 @@ setMethod(
 
 #' Generate aggregated counts of probes for the same target
 #'
-#' Generate Generate aggregated counts of probes for the same target, based on their score test results or correlation
+#' Generate aggregated counts of probes for the same target, based on their score test results or correlation
 #'
 #' @param object matrix of probes
 #' @param probenames vector of names of probe
